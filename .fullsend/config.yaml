@@ -18,6 +18,9 @@ roles:
     - fix
     - retro
     - prioritize
+agents:
+    - name: fork-pr-killswitch-base
+      source: harness/fork-pr-killswitch-base.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
